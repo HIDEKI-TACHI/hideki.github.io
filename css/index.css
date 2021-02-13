@@ -107,12 +107,12 @@ main .topimg {
 .background1 h1 {
   margin: 0;
   padding-top: 10vw;
-  font-size: 2.7vw;
+  font-size: max(20px, 2.7vw);
   text-align: center;
 }
 
 .background1 p {
-  font-size: 1.3vw;
+  font-size: max(15px, 1.3vw);
   margin-bottom: 10vw;
   text-align: center;
 }
@@ -137,7 +137,7 @@ section .infotakeguchi {
 }
 
 .infotakeguchi .profile {
-  font-size: 1.3vw;
+  font-size: max(12px, 1.3vw);
   line-height: 3vw;
 }
 
@@ -148,16 +148,16 @@ section .infotakeguchi {
 section .takeguti {
   margin-top: 2vw;
   margin-bottom: 0.6vw;
-  font-size: 3vw;
+  font-size: max(20px, 3vw);
   font-weight: 600;
   font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
 }
 
 .jisseki {
   margin-top: 4vw;
-  margin-bottom: 0.5vw;
+  margin-bottom: 0;
   margin-left: 1vw;
-  font-size: 2vw;
+  font-size: max(15px, 2vw);
   font-weight: 500;
 }
 
@@ -183,7 +183,7 @@ section .takeguti {
 }
 
 .greeting1 {
-  font-size: 1.3vw;
+  font-size: max(15px, 1.3vw);
   margin-left: 3vw;
 }
 
@@ -209,7 +209,7 @@ section .takeguti {
 
 .abcd p {
   text-align: center;
-  font-size: 1.3vw;
+  font-size: max(15px, 1.3vw);
   margin: 0;
 }
 
@@ -258,7 +258,7 @@ section .takeguti {
   background: #99ffcc;
   padding: 2vw;
   padding-bottom: 10vw;
-  font-size: 1.3vw;
+  font-size: max(15px, 1.3vw);
 }
 
 .btn-flat-simple {
@@ -320,17 +320,17 @@ section .takeguti {
 }
 
 .application p {
-  font-size: 1.3vw;
+  font-size: max(15px, 1.3vw);
 }
 
 .application .app1 {
   margin: 0 auto;
-  font-size: 2.5vw;
+  font-size: max(20px, 2.5vw);
   font-weight: 600;
 }
 
 .application .app2 {
   margin-top: 0;
-  font-size: 2vw;
+  font-size: max(17px, 2vw);
   font-weight: 500;
 }
