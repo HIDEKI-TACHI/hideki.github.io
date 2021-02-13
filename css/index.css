@@ -19,11 +19,22 @@ header .img {
 header .pic {
   width: 50vw;
   text-align: center;
+  height: 10vw;
+}
+
+.pic img {
+  width: 30vw;
 }
 
 header .info {
   width: 50vw;
-  margin-top: 40px;
+  margin-top: 5vw;
+  margin-right: 5vw;
+  height: 10vw;
+}
+
+.info img {
+  width: 10vw;
 }
 
 .info ul {
