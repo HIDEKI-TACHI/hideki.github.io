@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+}
+
+header .container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header .top {
+  width: 200px;
+}
+
+header .img {
+  vertical-align: bottom;
+}
+
+header .pic {
+  width: 50vw;
+  text-align: center;
+}
+
+header .info {
+  width: 50vw;
+  margin-top: 40px;
+}
+
+.info ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.topimg img {
+  width: 100vw;
+  margin: 0 auto;
+  vertical-align: bottom;
+}
+
+main .topimg {
+  position: relative;
+}
+
+.mgl-10 {
+  margin-left: 10vw;
+}
+
+.mgl-20 {
+  margin-left: 35vw;
+}
+
+.mgl-40 {
+  margin-left: 60vw;
+}
+
+.mgl-60 {
+  margin-left: 23vw;
+}
+
+.topimg p {
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.63), -3px 3px 2px rgba(0, 0, 0, 0.63),
+    3px -3px 2px rgba(0, 0, 0, 0.63), -3px -3px 2px rgba(0, 0, 0, 0.63),
+    3px 0px 2px rgba(0, 0, 0, 0.63), 0px 3px 2px rgba(0, 0, 0, 0.63),
+    -3px 0px 2px rgba(0, 0, 0, 0.63), 0px -3px 2px rgba(0, 0, 0, 0.63);
+  color: #fcfaf5;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3.5vw;
+  line-height: 3;
+  animation-name: fadein;
+  animation-duration: 2s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section1 {
+  background: url("../img/background1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.background1 h1 {
+  margin: 0;
+  padding-top: 10vw;
+  font-size: 2.7vw;
+  text-align: center;
+}
+
+.background1 p {
+  font-size: 1.3vw;
+  margin-bottom: 10vw;
+  text-align: center;
+}
+
+section .container1 {
+  display: flex;
+  margin: 0 auto;
+}
+
+.pic1 img {
+  width: 40vw;
+  margin-left: 5vw;
+}
+
+section .pic1 {
+  width: 50%;
+  margin-bottom: 5vw;
+}
+
+section .infotakeguchi {
+  width: 50%;
+}
+
+.infotakeguchi .profile {
+  font-size: 1.3vw;
+  line-height: 3vw;
+}
+
+.infotakeguchi img {
+  width: 30vw;
+}
+
+section .takeguti {
+  margin-top: 2vw;
+  margin-bottom: 0.6vw;
+  font-size: 3vw;
+  font-weight: 600;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+}
+
+.jisseki {
+  margin-top: 4vw;
+  margin-bottom: 0.5vw;
+  margin-left: 1vw;
+  font-size: 2vw;
+  font-weight: 500;
+}
+
+.greeting {
+  position: relative;
+  margin-bottom: 5vw;
+}
+
+.greeting img {
+  width: 100vw;
+  height: 30vw;
+}
+
+.greeting p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 3.5vw;
+  margin-left: 45vw;
+  margin-top: 13vw;
+}
+
+.greeting1 {
+  font-size: 1.3vw;
+  margin-left: 3vw;
+}
+
+.section2 {
+  background: url("../img/background2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding-bottom: 5vw;
+}
+
+.support {
+  position: relative;
+}
+
+.support img {
+  width: 100vw;
+  height: 30vw;
+  vertical-align: bottom;
+}
+
+.abcd p {
+  text-align: center;
+  font-size: 1.3vw;
+  margin: 0;
+}
+
+.support .support1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 3.5vw;
+  margin-left: 44vw;
+  margin-top: 13vw;
+}
+
+.abc {
+  text-align: center;
+  margin: 3vw;
+}
+
+.abc p {
+  padding: 0 15vw;
+  margin: 0;
+  background: #fff0c6;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+.abcd {
+  background: url("../img/background3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 10vw 0;
+}
+
+.support2 {
+  background: #cde4ff;
+  padding: 1vw 3vw;
+  margin: 0%;
+}
+
+.support3 {
+  background: #99ffcc;
+  padding: 2vw;
+  padding-bottom: 10vw;
+  font-size: 1.3vw;
+}
+
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 5vw;
+  text-decoration: none;
+  color: #00bcd4;
+  background: #ececec;
+  transition: 0.4s;
+  margin-left: 5vw;
+  margin-bottom: 3vw;
+}
+
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+.flow {
+  position: relative;
+}
+
+.flow img {
+  width: 100vw;
+  height: 30vw;
+  vertical-align: bottom;
+}
+
+.flow .flow1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  font-size: 3.5vw;
+  margin-left: 41vw;
+  margin-top: 13vw;
+}
+
+.application {
+  text-align: center;
+}
+
+.application .appimg1 {
+  margin: 5vw auto 1vw 1vw;
+  width: 17vw;
+}
+
+.application .appimg2 {
+  margin: 5vw auto 0 0;
+  width: 17vw;
+}
+
+.application .appimg3 {
+  margin: 5vw auto 1vw 1vw;
+  width: 17vw;
+}
+
+.application p {
+  font-size: 1.3vw;
+}
+
+.application .app1 {
+  margin: 0 auto;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.application .app2 {
+  margin-top: 0;
+  font-size: 2vw;
+  font-weight: 500;
+}
