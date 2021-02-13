@@ -83,18 +83,6 @@ main .topimg {
   left: 0;
   font-size: 3.5vw;
   line-height: 3;
-  animation-name: fadein;
-  animation-duration: 2s;
-}
-@keyframes fadein {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 .section1 {
@@ -103,6 +91,7 @@ main .topimg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  width: 100vw;
 }
 
 .background1 h1 {
@@ -195,6 +184,7 @@ section .takeguti {
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 5vw;
+  width: 100vw;
 }
 
 .support {
@@ -245,6 +235,7 @@ section .takeguti {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10vw 0;
+  width: 100vw;
 }
 
 .support2 {
