@@ -6,6 +6,7 @@ header .container {
   display: flex;
   width: 1200px;
   margin: 0 auto;
+  background-color: white;
 }
 
 header .top {
@@ -102,7 +103,6 @@ main .topimg {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
 }
 
 .background1 h1 {
@@ -194,7 +194,6 @@ section .takeguti {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
   padding-bottom: 5vw;
 }
 
@@ -245,7 +244,6 @@ section .takeguti {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%;
   padding: 10vw 0;
 }
 
