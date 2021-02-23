@@ -12,73 +12,27 @@ body {
   table-layout: fixed;
 }
 
-header .container {
-  display: flex;
-  width: 100vw;
-  margin: 0 auto;
-  background-color: white;
-}
-
-header .top {
-  width: 200px;
-}
-
-header .img {
-  vertical-align: bottom;
-}
-
-header .pic {
-  width: 50vw;
-  text-align: center;
-  height: 10vw;
-}
-
-.pic img {
+header img {
   width: 30vw;
-}
-
-header .info {
-  width: 50vw;
-  margin-top: 5vw;
-  margin-right: 5vw;
-  height: 10vw;
-}
-
-.info img {
-  width: 10vw;
-}
-
-.info ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-}
-
-.topimg img {
-  width: 100vw;
-  margin: 0 auto;
-  vertical-align: bottom;
+  margin: 2vw;
 }
 
 main .topimg {
   position: relative;
 }
 
+.topimg img {
+  width: 100vw;
+  /* margin: 0 auto; */
+  vertical-align: bottom;
+}
+
 .mgl-10 {
-  margin-left: 10vw;
+  margin: 7vw 0 0 20vw;
 }
 
 .mgl-20 {
-  margin-left: 35vw;
-}
-
-.mgl-40 {
-  margin-left: 60vw;
-}
-
-.mgl-60 {
-  margin-left: 23vw;
+  margin: 25vw 0 0vw 35vw;
 }
 
 .topimg p {
@@ -91,7 +45,7 @@ main .topimg {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 3.5vw;
+  font-size: 4vw;
   line-height: 3;
 }
 
@@ -102,6 +56,7 @@ main .topimg {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
+  padding-bottom: 10vw;
 }
 
 .background1 h1 {
@@ -113,13 +68,13 @@ main .topimg {
 
 .background1 p {
   font-size: max(15px, 1.3vw);
-  margin-bottom: 10vw;
   text-align: center;
 }
 
-section .container1 {
+.container1 {
   display: flex;
   margin: 0 auto;
+  padding-top: 5vw;
 }
 
 .pic1 img {
@@ -128,12 +83,13 @@ section .container1 {
 }
 
 section .pic1 {
-  width: 50%;
+  width: 55%;
   margin-bottom: 5vw;
 }
 
 section .infotakeguchi {
-  width: 50%;
+  width: 45%;
+  margin-left: 4vw;
 }
 
 .infotakeguchi .profile {
@@ -142,7 +98,7 @@ section .infotakeguchi {
 }
 
 .infotakeguchi img {
-  width: 30vw;
+  width: 40vw;
 }
 
 section .takeguti {
@@ -201,13 +157,13 @@ section .takeguti {
   position: relative;
 }
 
-.support img {
+.support .supportpic {
   width: 100vw;
   height: 30vw;
   vertical-align: bottom;
 }
 
-.abcd p {
+.abcd .abcdinfo {
   text-align: center;
   font-size: max(15px, 1.3vw);
   margin: 0;
@@ -244,7 +200,7 @@ section .takeguti {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 10vw 0;
+  padding: 10vw 0 5vw;
   width: 100vw;
 }
 
@@ -252,6 +208,7 @@ section .takeguti {
   background: #cde4ff;
   padding: 1vw 3vw;
   margin: 0%;
+  text-align: center;
 }
 
 .support3 {
@@ -259,6 +216,13 @@ section .takeguti {
   padding: 2vw;
   padding-bottom: 10vw;
   font-size: max(15px, 1.3vw);
+  text-align: center;
+}
+
+.support3 h3 {
+  display: inline-block;
+  background-color: pink;
+  padding: 0 2vw;
 }
 
 .btn-flat-simple {
@@ -270,8 +234,7 @@ section .takeguti {
   color: #00bcd4;
   background: #ececec;
   transition: 0.4s;
-  margin-left: 5vw;
-  margin-bottom: 3vw;
+  margin: 2vw auto 5vw;
 }
 
 .btn-flat-simple:hover {
@@ -310,7 +273,7 @@ section .takeguti {
 }
 
 .application .appimg2 {
-  margin: 5vw auto 0 0;
+  margin: 1vw auto 0 0;
   width: 17vw;
 }
 
